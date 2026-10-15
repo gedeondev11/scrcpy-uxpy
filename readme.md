@@ -6,7 +6,7 @@ os compatible:
 2.  Apple 
 3.  linux
 
-Instrucciones:
+install:
 
 1.  instalar flask en tu sistema operativo
 2.  descargar la ultima versión de scrcpy
