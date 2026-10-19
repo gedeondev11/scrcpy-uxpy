@@ -43,17 +43,17 @@ El celular debe aparecer como `device` (no como `unauthorized`).
 ## Uso
 
 ```bash
-python3 app.py
+python3 uxpyv2026_01.py
 ```
 
 Abre `http://127.0.0.1:5000` en el navegador, elige el modo y el perfil, y presiona **Iniciar**. Las grabaciones se guardan en la carpeta `grabaciones/`.
 
 ### Usar un scrcpy descargado manualmente
 
-Si no lo instalaste con el gestor de paquetes, puedes poner `scrcpy` y `adb` junto a `app.py` (con `chmod +x scrcpy adb` en Linux) o indicar sus rutas:
+Si no lo instalaste con el gestor de paquetes, puedes poner `scrcpy` y `adb` junto a `uxpyv2026_01.py` (con `chmod +x scrcpy adb` en Linux) o indicar sus rutas:
 
 ```bash
-SCRCPY=/ruta/a/scrcpy ADB=/ruta/a/adb python3 app.py
+SCRCPY=/ruta/a/scrcpy ADB=/ruta/a/adb python3 uxpyv2026_01.py
 ```
 
 ### Cámara virtual (solo Linux)
